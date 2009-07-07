@@ -54,6 +54,8 @@ foreach my $func (qw/new bnorm/)
   $x = $cr->$func('1/');	ok ($x,'NaN');
 
   $x = $cr->$func("0x7e");  ok($x, 126);
+  # this does not work yet
+  # $x = $cr->$func("0x7e/0x7e");  ok($x, 126);
 
   # input ala '1+1/3' isn't parsed ok yet
   $x = $cr->$func('1+1/3');	ok ($x,'NaN');
