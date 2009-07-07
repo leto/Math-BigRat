@@ -1,0 +1,10 @@
+
+Known bugs:
+
+* BigRat does not handle modify() yet or in a very incomplete manner
+* There are probably many... rats.
+
+Please send me test-reports, your experiences with this and your ideas - I love
+to hear about my work!
+
+Tels <http://bloodgate.com/>

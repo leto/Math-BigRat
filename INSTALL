@@ -1,0 +1,17 @@
+Math::BigRat - arbitrarily big rational numbers
+
+(C) ..--- ----- ----- .---- - ..--- - . .-.. ... .-.-.-  All rights reserved.
+
+Requires new version of Math::BigInt and Math::BigFloat as found on CPAN.
+
+To test, unzip & untar package, then run
+
+	perl Makefile.PL
+	make
+	make test
+	make install		# as root
+
+Please send me test-reports, your experiences with this and your ideas - I love
+to hear about my work!
+
+Tels <http://bloodgate.com/>
