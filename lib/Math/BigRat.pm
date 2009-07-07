@@ -279,7 +279,7 @@ sub new
     }
 
   # simple string input
-  if (($n =~ /[\.eE]/))
+  if (($n =~ /[\.eE]/) && $n !~ /^0x/)
     {
     # looks like a float, quacks like a float, so probably is a float
     $self->{sign} = 'NaN';
