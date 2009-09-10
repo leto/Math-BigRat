@@ -15,7 +15,7 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 21e6d61fb0134d6e9909c464cd5894083b1f32c7 BUGS
-SHA1 71e04e11e7fa27c2f4d31739ef5c13a87e188a11 CHANGES
+SHA1 56c589a594efd071930b66c0c117669fcce810ca CHANGES
 SHA1 45554f2da419f19f59014dab3489f34a45072279 INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 8328be04fd1048cdb63cad926c4c027dd2aba473 MANIFEST
@@ -32,7 +32,7 @@ SHA1 dfa433f2f41d990946f1b3d68a29299539f2dea6 inc/Module/Install/Makefile.pm
 SHA1 72cab336b6be5716aae0a1cb6d9add6c98a7a1f5 inc/Module/Install/Metadata.pm
 SHA1 35a62725a7eade0fa617ef2ba4cf2f4d4a69a3fe inc/Module/Install/Win32.pm
 SHA1 19dcc6d1e9f02c56d3f6d184642f4cd68aa371e6 inc/Module/Install/WriteAll.pm
-SHA1 e771e34aeefbb5373e3c9171a99234f093564ccf lib/Math/BigRat.pm
+SHA1 2574bb8666de4d49cde03f7d25d85bdef0c11913 lib/Math/BigRat.pm
 SHA1 10a4e077d8b5c267fdde22be32619d9d23bded3b t/Math/BigRat/Test.pm
 SHA1 aa8ee80ffa9174294604ac6246fdbe082738e9ac t/big_ap.t
 SHA1 897b556db401637a769c05a03e4e5eef019375ec t/bigfltpm.inc
@@ -51,7 +51,7 @@ SHA1 ab00cdfe98f95fd5434e95fe8a86a013b3ad773f t/trap.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (Darwin)
 
-iEYEARECAAYFAkqoSV8ACgkQl1RwaH8Sdu3a6gCfQn+yJn1yIUhAu4o76JFq37ZH
-n60AoIB/mHHb9xCR+F5+gCbR6C5vMNFu
-=Z0p2
+iEYEARECAAYFAkqoTC4ACgkQl1RwaH8Sdu2dXwCeNzThy4q4voTFVdaDyjkAW2UE
+7+QAn3nBYyAN9SqdZzr/uS2fp93U7kN9
+=U+T6
 -----END PGP SIGNATURE-----
