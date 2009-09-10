@@ -10,6 +10,7 @@ _build
 tmp*
 pod2htm*
 Makefile
+.git/*
 *.data
 foo*
 tags
