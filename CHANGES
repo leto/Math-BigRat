@@ -1,3 +1,7 @@
+2009-09-09 v0.24 Leto 975 tests
+  * Fix [perl RT #49565: SIGNATURES]
+  * Fix [perl RT #44827: Documentation incorrect]
+
 2009-09-08 v0.23 Leto 975 tests
   * Fix [perl RT #67244] hex "e" misunderstood by Math::BigRat
 
