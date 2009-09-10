@@ -1,0 +1,16 @@
+.gitignore
+*.core
+core
+Build
+blib
+*.bak
+*_wrap\.*
+\.*sw[op]
+_build
+tmp*
+pod2htm*
+Makefile
+*.data
+foo*
+tags
+.DS_Store
