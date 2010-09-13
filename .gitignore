@@ -9,9 +9,14 @@ blib
 _build
 tmp*
 pod2htm*
-Makefile
+Makefile*
+!Makefile.PL
 .git/*
 *.data
 foo*
 tags
 .DS_Store
+MANIFEST*
+!MANIFEST.SKIP
+inc/
+META.yml
