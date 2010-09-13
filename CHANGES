@@ -1,3 +1,6 @@
+2010-09-13 v0.25 rafl 975 tests
+  * Re-upload 0.24 with a fixed SIGNATURE
+
 2009-09-09 v0.24 Leto 975 tests
   * Fix [perl RT #49565: SIGNATURES]
   * Fix [perl RT #44827: Documentation incorrect]
