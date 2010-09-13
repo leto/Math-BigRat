@@ -24,5 +24,7 @@ author		'Jonathan Leto <jonathan@leto.net>';
 # install this over the version in the Perl core
 install_as_core;
 
+sign;
+
 # Generate the Makefile
 WriteAll;
