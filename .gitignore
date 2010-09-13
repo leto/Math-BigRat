@@ -20,3 +20,5 @@ MANIFEST*
 !MANIFEST.SKIP
 inc/
 META.yml
+pm_to_blib
+Math-BigRat-*
