@@ -1,3 +1,8 @@
+2010-09-15 v0.26 rafl 975 tests
+  * Remove obsolete test boilerplate that was once needed to test within the
+    perl core (Nicholas Clark).
+  * Convert tests from Test to Test::More (Nicholas Clark).
+
 2010-09-13 v0.25 rafl 975 tests
   * Re-upload 0.24 with a fixed SIGNATURE
 
