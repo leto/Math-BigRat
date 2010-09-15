@@ -5,27 +5,7 @@ use strict;
 
 BEGIN
   {
-  $| = 1;
-  # to locate the testing files
-  my $location = $0; $location =~ s/bigfltrt.t//i;
-  if ($ENV{PERL_CORE})
-    {
-    # testing with the core distribution
-    @INC = qw(../t/lib);
-    }
-  unshift @INC, '../lib';
-  if (-d 't')
-    {
-    chdir 't';
-    require File::Spec;
-    unshift @INC, File::Spec->catdir(File::Spec->updir, $location);
-    }
-  else
-    {
-    unshift @INC, $location;
-    }
-  print "# INC = @INC\n";
-
+  unshift @INC, 't';
   plan tests => 1;
   }
 
@@ -38,4 +18,4 @@ $CL = "Math::BigInt::Calc";
 ok (1,1);
 
 # fails still too many tests
-#require 'bigfltpm.inc';		# all tests here for sharing
+#require 't/bigfltpm.inc';		# all tests here for sharing

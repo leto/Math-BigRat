@@ -5,9 +5,6 @@ use Test;
 
 BEGIN 
   {
-  $| = 1;
-  chdir 't' if -d 't';
-  unshift @INC, '../lib'; # for running manually
   plan tests => 200;
   }
 
