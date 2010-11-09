@@ -72,4 +72,3 @@ for my $trap (qw/0.1a +inf inf -inf/)
   }
 
 # all tests done
-

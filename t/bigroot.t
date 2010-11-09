@@ -39,4 +39,3 @@ sub test_broot
   $result =~ s/\..*//;
   is ($c->new($x)->bpow($n)->broot($y,$scale),$result, "Try: $c $x->bpow($n)->broot($y,$s) == $result");
   }
-

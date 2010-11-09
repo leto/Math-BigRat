@@ -70,4 +70,3 @@ is ($x->copy()->blog($base), 777, 'blog(777**777, 777)');
 
 # all done
 1;
-
